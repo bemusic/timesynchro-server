@@ -1,0 +1,23 @@
+{
+  "name": "timesynchro-server",
+  "version": "1.0.0",
+  "description": "Damn Simple Time Synchronization Server",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "raf": "^2.0.4",
+    "ws": "~0.4.31"
+  },
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": "",
+  "author": "Thai Pangsakulyanont <org.yi.dttvb@gmail.com>",
+  "license": "BSD"
+}
