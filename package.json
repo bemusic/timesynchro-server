@@ -7,11 +7,12 @@
     "test": "test"
   },
   "dependencies": {
-    "express": "^4.12.3"
+    "express": "^4.12.3",
+    "ws": "~0.4.31"
   },
   "devDependencies": {
     "raf": "^2.0.4",
-    "ws": "~0.4.31"
+    "timesynchro": "^1.0.0"
   },
   "scripts": {
     "test": "mocha",
